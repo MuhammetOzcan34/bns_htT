@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TV Ekranı - Tanıtım ve Haberler</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <!-- Sağ Widget Alanı -->
+        <div class="right-widgets">
+            <!-- TCMB Döviz Kurları -->
+            <div class="widget currency-widget">
+                <h3>TCMB Döviz Kurları</h3>
+                <div id="tcmb-currency"></div>
+            </div>
+            
+            <!-- İMKB İstanbul Borsası Endeksi -->
+            <div class="widget stock-widget">
+                <h3>BIST Endeksi</h3>
+                <div id="bist-index"></div>
+            </div>
+            
+            <!-- İstanbul Hava Durumu -->
+            <div class="widget weather-widget">
+                <h3>İstanbul Hava Durumu</h3>
+                <div id="istanbul-weather"></div>
+            </div>
+        </div>
+        
+        <!-- Ana Video Alanı -->
+        <div class="video-container">
+            <div id="video-player"></div>
+        </div>
+        
+        <!-- Alt Haber Akış Bantı -->
+        <div class="news-ticker">
+            <div class="ticker-title">HABERLER</div>
+            <div class="ticker-content">
+                <div class="ticker-items"></div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
